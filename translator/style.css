@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap'); /*importing font*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box; /* If you set box-sizing: border-box; on an element, padding and border are included in the width and height */
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;  /* creating flexbox */
+    align-items: center; /*Items are positioned at the center of the container */
+    justify-content: center; /*	Items are positioned in the center of the container */
+    min-height: 100vh;
+    background:url('media/bcg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container
+{
+    width: 690px;
+    background-color: rgba(0, 0, 0, 0.849);
+    border-radius: 7px;
+    padding: 30px;
+    /* apply a semi-transparent background color */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.wrapper
+{
+    border:1px solid rgb(175, 167, 167);
+    border-radius: 5px;
+}
+
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid rgb(175, 167, 167) ;
+}
+
+.text-input .to-text
+{
+    border-left: 1px solid rgb(175, 167, 167);
+    border-radius: 0px;
+}
+
+.text-input textarea
+{
+    height: 250px;
+    width: 100%;
+    border:none;
+    resize:none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.controls,li, .icons,.icons i
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls
+{
+    list-style: none;
+    padding:12px 15px;
+}
+
+.controls .row .from .icons
+{
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
+}
+
+.controls .row .to .icons
+{
+    padding-left: 15px;
+    border-right: 1px solid #bbb;
+}
+
+.controls .icons{
+  width:38%;
+}
+
+.controls .icons i{
+    width:50px;
+    color:#9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .icons i:hover{
+    width:50px;
+    color:#ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .row select{
+    border:none;
+    outline:none;
+    font-size: 18px;
+    background: none;
+}
+
+.controls .exchange{
+    color: #9f9f9f;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.controls .exchange:hover{
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button{
+    width:100%;
+    padding:14px;
+    margin-top: 20px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    color:rgba(255, 255, 255, 0.644);
+    font-size: 17px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.308);
+    border:1px solid rgb(172, 168, 168);
+}
+
+.container button:hover{
+    width:100%;
+    padding:14px;
+    margin-top: 20px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.568);
+    border:1px solid rgb(172, 168, 168);
+}
+
+select 
+{
+  color: #9e9494;
+}
+
+textarea
+{
+    color: #ffffff;
+}
+
