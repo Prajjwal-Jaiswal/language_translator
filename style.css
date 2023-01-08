@@ -63,7 +63,7 @@ body{
 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
 .controls
@@ -161,3 +161,55 @@ textarea
     color: #ffffff;
 }
 
+
+
+@media (max-width:1000px) {
+    .container
+    {
+        width: 80%;
+    }
+
+    
+    .controls .icons i
+    {
+        font-size: 12px;
+        width: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .exchange i 
+    {
+        font-size: 12px;
+        width: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    ul.controls
+    {
+        padding: 10%;
+    }
+
+    select 
+    {
+        width: 85px;
+    }
+
+   
+}
+
+@media (max-width:565px) {
+    body
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .container
+    {
+        width: 220%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
