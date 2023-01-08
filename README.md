@@ -115,5 +115,4 @@ There are as many as upto 100 different languages to be chosen from:-<br/>
    .We can copy FROM text<br/>
    .We can listen the text in form of voice<br/>
    <br/>
-   .When we hover over the container , we notice a very cool tilt hover effect which is imported from an external js library.<br/>
 <br/>
