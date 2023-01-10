@@ -115,4 +115,5 @@ There are as many as upto 100 different languages to be chosen from:-<br/>
    .We can copy FROM text<br/>
    .We can listen the text in form of voice<br/>
    <br/>
-<br/>
+   This website is highly responsive which can work for both mobiles,desktop.  <br/>
+   <br/> 
